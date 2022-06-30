@@ -1,0 +1,20 @@
+.container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  max-width: 960px;
+  max-height: 960px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
